@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pufakchalar jangi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">✦ PUFAKCHALAR <span>JANGI</span></div>
+    <div class="header-tag">INTERAKTIV O‘YIN</div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="eyebrow">BIRLASHTIR • PORTLAT • G‘ALABA QOZON</p>
+      <h1>PUFAKCHALAR <span>JANGI</span></h1>
+      <p>Bir xil rangdagi pufakchalarni toping va ularni birlashtirib yo‘qoting!</p>
+    </section>
+
+    <section class="stats">
+      <div class="stat">
+        <small>TO‘PLANGAN BALL</small>
+        <strong id="score">0</strong>
+      </div>
+      <div class="stat">
+        <small>QOLGAN VAQT</small>
+        <strong id="time">90</strong>
+      </div>
+      <div class="stat">
+        <small>PORTLATILGAN</small>
+        <strong id="popped">0</strong>
+      </div>
+      <div class="stat">
+        <small>REKORD</small>
+        <strong id="record">0</strong>
+      </div>
+    </section>
+
+    <section class="game-card">
+      <div class="game-heading">
+        <span>🫧 O‘YIN MAYDONI</span>
+        <span id="level">1-DARAJA</span>
+      </div>
+
+      <div class="progress-wrap">
+        <div class="progress-info">
+          <span>Keyingi darajagacha</span>
+          <span id="progressText">0 / 150</span>
+        </div>
+        <div class="progress-track">
+          <div id="progressBar"></div>
+        </div>
+      </div>
+
+      <div id="board" class="board"></div>
+
+      <div id="message" class="message">
+        <div class="message-icon">🫧</div>
+        <h2>Pufakchalar jangiga tayyormisiz?</h2>
+        <p>Bir xil rangdagi kamida 3 ta yonma-yon pufakchani bosing!</p>
+        <button id="startBtn">O‘YINNI BOSHLASH</button>
+      </div>
+
+      <div class="game-actions">
+        <button id="restartBtn" class="secondary-btn">↻ QAYTA BOSHLASH</button>
+        <button id="helpBtn" class="secondary-btn">? QOIDALAR</button>
+      </div>
+    </section>
+
+    <section class="legend">
+      <div><span class="bubble red"></span> Qizil</div>
+      <div><span class="bubble blue"></span> Ko‘k</div>
+      <div><span class="bubble green"></span> Yashil</div>
+      <div><span class="bubble purple"></span> Binafsha</div>
+      <div><span class="bubble orange"></span> To‘q sariq</div>
+    </section>
+
+    <section class="tip">
+      <span>💡</span>
+      <p>Maslahat: katta guruhlarni toping! Qancha ko‘p pufakchani bir vaqtda yo‘qotsangiz, shuncha ko‘p ball olasiz.</p>
+    </section>
+
+    <footer>
+      <p>Loyiha muallifi: <b>AKRAMJONOVA JADRA MARATOVNA</b></p>
+      <p>© 2026 PUFAKCHALAR JANGI</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
